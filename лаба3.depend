@@ -1,0 +1,48 @@
+# depslib dependency file v1.0
+1587471798 source:c:\users\Саша\desktop\лаба3\divan.cpp
+	"divan.h"
+
+1587471738 source:c:\users\Саша\desktop\лаба3\main.cpp
+	<iostream>
+	<string>
+	"izdelie.h"
+	"mebel.h"
+	"shkaf.h"
+	"stellage.h"
+	"stol.h"
+	"divan.h"
+
+1587469717 source:c:\users\Саша\desktop\лаба3\mebel.cpp
+	"mebel.h"
+
+1587467101 source:c:\users\Саша\desktop\лаба3\shkaf.cpp
+	"shkaf.h"
+
+1587467101 source:c:\users\Саша\desktop\лаба3\stellage.cpp
+	"stellage.h"
+
+1587467101 source:c:\users\Саша\desktop\лаба3\stol.cpp
+	"stol.h"
+
+1587471563 source:c:\users\Саша\desktop\лаба3\izdelie.cpp
+	"izdelie.h"
+
+1587464393 c:\users\Саша\desktop\лаба3\izdelie.h
+	<iostream>
+	<string>
+
+1587464393 c:\users\Саша\desktop\лаба3\mebel.h
+	"izdelie.h"
+
+1587464393 c:\users\Саша\desktop\лаба3\shkaf.h
+	"mebel.h"
+
+1587470255 c:\users\Саша\desktop\лаба3\stellage.h
+	"mebel.h"
+
+1587470255 c:\users\Саша\desktop\лаба3\stol.h
+	"mebel.h"
+
+1587470188 c:\users\Саша\desktop\лаба3\divan.h
+	"mebel.h"
+
