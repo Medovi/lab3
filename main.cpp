@@ -14,7 +14,7 @@ int main()
     string name_, color_, material_, pokritie_;
     int polki_, size_, kolsec_, vibor;
 
-    a:
+    //a:
     cout << "Vvedite 1, chtobi vvesti dannie shkafa;" << endl;
     cout << "Vvedite 2, chtobi vvesti dannie stellaga;" << endl;
     cout << "Vvedite 3, chtobi vvesti dannie stola;" << endl;
@@ -26,7 +26,7 @@ int main()
     cout << endl;
     if ((vibor>=6)||(vibor<=0)){
     cout << "Please, vvedite chislo ot 1 do 5!"<< endl<<endl;
-    goto a;
+    //goto a;
     }
     cout << endl;
 
@@ -48,7 +48,17 @@ int main()
     shkaf s(name_, size_, color_, material_, polki_);
     s.print();
     cout << endl;
-    goto a;
+
+    cout << "Vvedite 1, chtobi vvesti dannie shkafa;" << endl;
+    cout << "Vvedite 2, chtobi vvesti dannie stellaga;" << endl;
+    cout << "Vvedite 3, chtobi vvesti dannie stola;" << endl;
+    cout << "Vvedite 4, chtobi vvesti dannie divana;" << endl;
+    cout << "Vvedite 5, zavershit` rabotu programmi." << endl;
+
+    cout <<"Vvodite: ";
+    cin >> vibor;
+    cout << endl;
+    //goto a;
 }
     case 2:{
     cout << "Vi vibrali stellage." << endl;
@@ -67,7 +77,17 @@ int main()
     stellage stel(name_, size_, color_, material_, kolsec_);
     stel.print();
     cout << endl;
-    goto a;
+
+    cout << "Vvedite 1, chtobi vvesti dannie shkafa;" << endl;
+    cout << "Vvedite 2, chtobi vvesti dannie stellaga;" << endl;
+    cout << "Vvedite 3, chtobi vvesti dannie stola;" << endl;
+    cout << "Vvedite 4, chtobi vvesti dannie divana;" << endl;
+    cout << "Vvedite 5, zavershit` rabotu programmi." << endl;
+
+    cout <<"Vvodite: ";
+    cin >> vibor;
+    cout << endl;
+    //goto a;
 }
     case 3:{
     cout << "Vi vibrali stol." << endl;
@@ -84,7 +104,17 @@ int main()
     stol st(name_, size_, color_, material_);
     st.print();
     cout << endl;
-    goto a;
+
+    cout << "Vvedite 1, chtobi vvesti dannie shkafa;" << endl;
+    cout << "Vvedite 2, chtobi vvesti dannie stellaga;" << endl;
+    cout << "Vvedite 3, chtobi vvesti dannie stola;" << endl;
+    cout << "Vvedite 4, chtobi vvesti dannie divana;" << endl;
+    cout << "Vvedite 5, zavershit` rabotu programmi." << endl;
+
+    cout <<"Vvodite: ";
+    cin >> vibor;
+    cout << endl;
+    //goto a;
 }
     case 4:{
     cout << "Vi vibrali divan." << endl;
@@ -103,7 +133,17 @@ int main()
     divan div(name_, size_, color_, material_, pokritie_);
     div.print();
     cout << endl;
-    goto a;
+
+    cout << "Vvedite 1, chtobi vvesti dannie shkafa;" << endl;
+    cout << "Vvedite 2, chtobi vvesti dannie stellaga;" << endl;
+    cout << "Vvedite 3, chtobi vvesti dannie stola;" << endl;
+    cout << "Vvedite 4, chtobi vvesti dannie divana;" << endl;
+    cout << "Vvedite 5, zavershit` rabotu programmi." << endl;
+
+    cout <<"Vvodite: ";
+    cin >> vibor;
+    cout << endl;
+    //goto a;
 }
     case 5:{
     cout << "Do svidaniya!";
